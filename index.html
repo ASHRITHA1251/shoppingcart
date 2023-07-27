@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--navigation with anchor tag --a-- so .navigation a-->
+    <style>
+        body{
+            background-color:gray;
+            margin:0%;
+            /*  */
+           
+        }
+        .navigation{
+            background:black;
+            display:flex;
+            justify-content: space-around;
+        }
+        
+        .navigation a{
+            font-size: 2.6rem; 
+            text-decoration: none;
+            color:white;
+           
+        }
+       
+    </style>
+</head>
+<body>
+    <!--navbar is updated as nav-->
+    <nav class="navigation">
+    <a href="https://www.google.com" >google</a>
+    <a href="login.html">Login</a>
+    <a href="register.html">Register</a>
+    <a href="catalog.html">Catalog</a>
+    <a href="cart.html">Cart</a>
+    </nav>
+    <section class="login">
+        <div>
+            <input placeholder="Enter email ID"/>
+    
+        </div>
+        <div>
+            <input placeholder="Enter password"/>
+    
+        </div>
+        <div>
+            <a class="forget" href="#">Forgot Password?</a>
+            <!--when we click on it , # appears in the address of page, redirecting to the same page before adding any page-->
+        </div>
+        <button class="btn">Login</button>
+    </section>
+    <p class="para">this is a paragraph</p>
+    <!--class value acts as intermediate, para-->
+
+    
+</body>
+</html>
